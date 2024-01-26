@@ -21,7 +21,7 @@ This repository contains two Python scripts for interacting with Firebase in the
 ```
 
 
-2. **Service Account Key**: You need a Firebase service account key for your project. This can be obtained from the Firebase console. Place the service account key file (`galactikos_dev-Firebase.json` for development and `galactikos_prod-Firebase.json` for production) in the root directory of your project.
+2. **Service Account Key**: You need a Firebase service account key for your project. This can be obtained from the Firebase console. Place the service account key file in the root directory of your project.
 
 ---
 
@@ -64,5 +64,5 @@ This script exports data from Firestore collections and Firebase Storage.
 
 ## Notes
 
-- Make sure to update the paths to the service account key files and modify the bucket name (`<bucker-name>`) as per your Firebase project's configuration.
+- Make sure to update the paths to the service account key files and modify the `<bucker-name>` as per your Firebase project's configuration.
 - The scripts should be executed from the root directory of your project where the service account key files are located.
